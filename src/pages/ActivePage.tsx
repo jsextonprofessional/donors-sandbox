@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 
 export const ActivePage = () => {
   return (
-    <div>
+    <div className="flex flex-col min-h-screen">
       <Content />
       <Footer /> 
     </div>
